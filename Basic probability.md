@@ -62,6 +62,50 @@ Discrete random variables are often classified according to their probability ma
 Suppose that n independent trials, each of which results in a “success” with probability p and in a “failure” with probability 1 − p, are to be performed. If X represents the number of successes that occur in the n trials, then X is said to be a binomial random variable with parameters $(n, p)$.
 
 3) The Geometric Random Variable,
+Suppose that independent trials, each having probability p of being a success, are performed until a success occurs. If we let X be the number of trials required until the first success, then X is said to be a geometric random variable with parameter p. Its probability mass function is given by:
+$p(n) = P{X = n} = (1 − p)$,
+
+4) The Poisson Random Variable,
+$p(i) = P{X = i} = e^−{\lambda} \frac{\lambda^{i}}{i!}$, i=0,1,2....
+
+## Continous random variables,
+In this section, we shall concern ourselves with random variables whose set of possible values is uncountable,
+The definition of  Continuous Random Variables, cummulative density function and probability density function,
+
+1) The Uniform Random Variable,
+
+2) Exponential Random Variables, 
+
+$f(x)= \lambda e^{-\lambda x}$, for $x \geq 0$,
+
+3) Gamma Random Variables,
+4) Normal Random Variables,
+
+## Expectation of Random Variables,
+## Jointly Distributed Random Variables,
+
+The the joint cumulative probability distribution function of X
+and Y by:
+$F(a,b)= P=(X\leq a, Y\leq b)$,
+
+More of the joint cummulative probability function is on page 42,
+
+
+## Independent Random Variables,
+The definition of independent random variables,
+$F(a,b)= P=(X\leq a, Y\leq b)= P(X\leq a) P(Y\leq b)$,
+
+The definition of co-variance of two random variables,
+
+$Cov(X,Y)= E(X-E(X))E(Y-E(Y))= E(XY)-E(X)E(Y)$,
+
+
+
+
+
+
+
+
 
 
 
