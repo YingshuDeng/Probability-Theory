@@ -99,6 +99,30 @@ The definition of co-variance of two random variables,
 
 $Cov(X,Y)= E(X-E(X))E(Y-E(Y))= E(XY)-E(X)E(Y)$,
 
+## The Probability Distribution of Functions of Random Variables- and Jacobian determinant- refer to page 56
+
+Let X1 and X2 be jointly continuous random variables with joint probability density function $f(x1, x2)$. It is sometimes necessary to obtain the joint distribution of the random variables $Y1$ and $Y2$ that arise as functions of X1 and X2. Specifically, suppose that $Y1 = g1(X1, X2)$ and $Y2 = g2(X1, X2)$ for some functions $g1$ and $g2$.
+
+$$f_{Y_1,Y_2}(y_1, y_2)= f_{X_1, X_2}(X_1, X_2)|J(x_1,x_2)|^{-1}$$,
+
+2) Moment generating functions of Random Variable - refer to page 58 of the book
+
+The definition of moment generating function: 
+The moment generating function φ(t) of the random variable X is defined for all values $t$ by:
+
+$$\psi(t)= E[e^ {tX} ]$$,
+
+In general, $$\psi^{n} (0) =E[X^{n}]$$. for all n>1,
+
+An important property of moment generating functions is that themoment generating function of the sum of independent random variables is just the product of the individual moment generating functions:
+
+$$\psi_{X+Y}(t)= E[e^{t(X+Y)}]= \psi_{X}(t)* \psi_{Y}(t) $$, 
+
+## The Joint Distribution of the Sample Mean and Sample Variance from a Normal Population
+
+## Look back and redo it 
+
+## The Distribution of the Number of Events that Occur, 
 
 
 
@@ -106,21 +130,7 @@ $Cov(X,Y)= E(X-E(X))E(Y-E(Y))= E(XY)-E(X)E(Y)$,
 
 
 
-
-
-
-
-
-
-
-
-
-# Others
-
-
-
-1) The Probability Distribution of Functions of Random Variables- and Jacobian determinant- refer to page 56
-2) Moment generating functions of Random Variable - refer to page 58- Also with important charateristics of the sum of independent random variables.
+4)  Also with important charateristics of the sum of independent random variables.
 
 3) Markov Identity: $P[X\geq a] \leq \frac{E[x]}{a}$ Proof in page 72
 4) Chebyshev’s Inequality in page 72
