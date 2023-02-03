@@ -39,7 +39,29 @@ $P(F_j|E)= \frac{P(EF_J)}{P(E)} $,
 
 $P(F_j|E)= \frac{P(E|F_J) P(F_J)}{ \sum P(E|F_i) P(F_i)} $,
 
-## Random Variables,
+# Chapter 2 Random Variables,
+## 2.1 The definition of random variables
+
+Discrete random variable and s continuous random variables,
+
+The definition of cumulative distribution function:
+$F(b)=P(x \leq b)$, and three important porperty of $F(b)$ are:
+1) F(b) is a nondecreasing function of b,
+2) $limb→∞ F(b) = F(\infty) = 1$,
+3) $limb→−∞ F(b) = F(−\infty) = 0$,
+4) $P{X < b} = = lim_{h→0}+ F(b − h)$,
+
+It is important to note that $P{X < b}$ does not neccesarily equals to F(b),
+
+## 2.2 Discrete Random Variables,
+
+Discrete random variables are often classified according to their probability mass functions.
+
+1) The Bernoulli Random Variable -> 2) The Binomial Random Variable,
+
+Suppose that n independent trials, each of which results in a “success” with probability p and in a “failure” with probability 1 − p, are to be performed. If X represents the number of successes that occur in the n trials, then X is said to be a binomial random variable with parameters $(n, p)$.
+
+3) The Geometric Random Variable,
 
 
 
@@ -48,6 +70,8 @@ $P(F_j|E)= \frac{P(E|F_J) P(F_J)}{ \sum P(E|F_i) P(F_i)} $,
 
 
 
+
+# Others
 
 
 
